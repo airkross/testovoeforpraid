@@ -1,0 +1,41 @@
+// .nav-colored
+//     background-color: #2f314c
+// .nav-transparent
+//     background-color: none
+
+.header
+    padding: 38px 0
+    display: flex
+    justify-content: space-between
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15)
+    align-items: center
+.menu
+    display: flex
+    list-style: none
+    margin-bottom: 0
+    &-btn
+        width: 30px
+        height: 30px
+        display: none
+        & img
+            width: 100%
+            cursor: pointer
+    &-item
+        padding-left: 59px
+        font-family: 'Raleway', sans-serif
+    &-link:hover
+        text-decoration: none
+        color: #ffffff
+        opacity: 0.75
+    &-link:focus
+        outline: none
+    &-link
+        color: #ffffff
+        opacity: 0.75
+        font-size: 13px
+        font-weight: 700
+        text-transform: uppercase
+        transition: .2s
+    &-link:hover
+        opacity: 1
+
